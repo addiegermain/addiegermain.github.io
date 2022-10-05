@@ -11,8 +11,28 @@ html, body {
     overflow-x: hidden; 
 
 }
+
+.hero-img {
+    min-height: 96px;
+}
 .w-99{
     width: 29rem;
+}
+
+.h-100 {
+    height: 28rem;
+}
+
+
+
+.h-110 {
+    height: 30rem;
+}
+.h-120 {
+    height: 32rem;
+}
+.h-130 {
+    height: 34rem;
 }
 
 .text-8xxl{
@@ -38,3 +58,13 @@ html, body {
 .-z-1 {
     z-index: -1;
 }
+
+
+.gallery-img h1 {
+    display: none;
+}
+
+.gallery-img:hover h1 {
+    display: block;
+}
+
